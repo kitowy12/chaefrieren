@@ -1,0 +1,158 @@
+css.style
+
+.h1{
+    font-size: 1em;
+}
+
+.p1{
+    font-size: 2.5em;
+    color: white;
+}
+.p2{
+    font-size: 1.5em;
+    color: hwb(0 93% 7%);
+}
+.p3{
+    font-size: 1.5em;
+    color: hwb(0 93% 7%);
+}
+.p4{
+    font-size: 2.5em;
+    color: hwb(0 93% 7%);
+}
+.p5{
+    font-size: 1.5em;
+    color: hwb(0 93% 7%);
+}
+.p6{
+    font-size: 2.5em;
+    color: hwb(0 93% 7%);
+}
+.p7{
+    font-size: 1.5em;
+    color: hwb(0 93% 7%);
+}
+.p8{
+    font-size: 1.5em;
+    color: hwb(0 93% 7%);
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+#img3{
+    float: left;
+    margin-right: 10px;
+}
+#vid1{
+    float: right;
+    
+    margin-left: 10px;
+    
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(252, 255, 45);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: hsla(241, 97%, 39%, 0.555);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: hsla(0, 77%, 42%, 0.521);
+    border-radius: 5px;
+}
+.pagination{
+    margin-top: 50%;
+}
+.body{
+    background-color: hsla(0, 1%, 65%, 0.534);
+
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+
+.container img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.container #img5:hover{
+    opacity: 0;
+}
+.containe{
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+
+.containe img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.containe #img7:hover{
+    opacity: 0;
+}
+.containew{
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+
+.containew img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.containew #img9:hover{
+    opacity: 0;
+}
+
+#img10{
+    float: left;
+    margin-right: 10px;
+}
+#img11{
+    float: left;
+    margin-right: 10px;
+}
+#img12{
+    float: right;
+    margin-left: 10px;
+}
+#img13{
+    float: left;
+    margin-right: 10px;
+}
+#video3{
+    float: right;
+    margin-left: 10px;
+}
